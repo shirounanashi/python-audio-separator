@@ -28,10 +28,10 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.9, <3.13"
 requests = ">=2"
 numpy = ">=1.23"
-librosa = ">=0.10"
+librosa = ">=0.9.1"
 samplerate = "0.1.0"
 six = ">=1.16"
 torch = "*"
